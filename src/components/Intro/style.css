@@ -1,0 +1,103 @@
+.introSection{
+    height:calc(100vh - 5rem);
+    width: 100vw;
+    max-width: 78rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.bgImage{
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 0;
+    right: -4rem;
+    z-index: -4;
+   object-fit: cover;
+   height: 100vh;
+}
+.details{
+    height: auto;
+    width: auto;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hi{
+    font-size: 1.50rem;
+    font-weight: 400;
+}
+.im{
+    font-size: 1.95rem;
+}
+.ahamed{
+    color: #f9532d;
+    font-size: 4rem;
+}
+.summary{
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 0.75rem;
+    letter-spacing: 1px;
+}
+.dwnlBtn{
+    margin: 2px;
+}
+.btn{
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: 300;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius:1.5rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 0.75rem;
+    text-decoration: none;
+}
+.introSection a:hover{
+    cursor: pointer;
+    background-color: #f9532d;
+}
+
+@media screen and (max-width:880px) {
+    .bgImage{
+        margin-right: -8rem;
+    }
+    .summary{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width:700px) {
+    .bgImage{
+        margin-right: -8rem;
+        height: 90vh;
+        width: auto;
+    }
+}
+@media screen and (max-width:380px) {
+    .hi{
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .im{
+        font-size: 1.5rem;
+    }
+    .ahamed{
+        color: #f9532d;
+        font-size: 3rem;
+    }
+    .webdev{
+        font-size: 2.5rem;
+    }
+    .summary{
+        font-size: 1.4rem;
+    }
+}

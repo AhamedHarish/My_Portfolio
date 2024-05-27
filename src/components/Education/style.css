@@ -1,0 +1,195 @@
+.education{
+    overflow: hidden;
+    width: 100vw;
+    scroll-behavior: smooth;
+    max-width: 78rem;
+}
+.eduTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+}
+.eduDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.clg{
+    background: rgb(15,15,15);
+    height: 18vh;
+    width: 55vw;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.clg h3{
+    padding: 1rem 0 0.5rem 0;
+    align-self: center;
+    font-size: 1.5rem;
+}
+.clg h4{
+    font-size: 1rem;
+    font-weight: 300;
+}.clg span{
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+.hsc{
+    background: rgb(15,15,15);
+    height: 18vh;
+    width: 55vw;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.hsc h3{
+    padding: 1rem 0 0.5rem 0;
+    align-self: center;
+    font-size: 1.5rem;
+}
+.hsc h4{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.hsc span{
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+.sslc{
+    background: rgb(15,15,15);
+    height: 18vh;
+    width: 55vw;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+.sslc h3{
+    padding: 1rem 0 0.5rem 0;
+    align-self: center;
+    font-size: 1.5rem;
+}
+.sslc h4{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.sslc span{
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+
+@media screen and (max-width:750px) {
+    .clg{
+        width: 70vw;
+        height: 15vh;
+        margin: 0.5rem;
+    }
+
+    .hsc{
+        width: 70vw;
+        height: 15vh;
+        margin: 0 0.5rem 0.5rem 0.5rem;
+    }
+    .sslc{
+        width: 70vw;
+        height: 15vh;
+        margin: 0 0.5rem 0.5rem 0.5rem;
+    }
+}
+@media screen and (max-width:630px) {
+    .clg h3{
+        font-size: 1.2rem;
+        align-self: center;
+    }
+    .clg h4{
+        font-size: 0.75rem;
+        font-weight: 200;
+    }
+    .clg span{
+        font-size: 0.5rem;
+    }
+
+    .hsc h3{
+        font-size: 1.2rem;
+        align-self: center;
+    }
+    .hsc h4{
+        font-size: 0.75rem;
+        font-weight: 200;
+    }
+    .hsc span{
+        font-size: 0.5rem;
+    }
+
+    .sslc h3{
+        font-size: 1.2rem;
+        align-self: center;
+    }
+    .sslc h4{
+        font-size: 0.75rem;
+        font-weight: 200;
+    }
+    .sslc span{
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (max-width:475px) {
+    .clg{
+        width: 80vw;
+    }
+    .clg h3{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .clg h4{
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+    .clg span{
+        font-weight: 200;
+    }
+
+    .hsc{
+        width: 80vw;
+    }
+    .hsc h3{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .hsc h4{
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+    .hsc span{
+        font-weight: 200;
+    }
+
+    .sslc{
+        width: 80vw;
+    }
+    .sslc h3{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .sslc h4{
+        font-size: 0.6rem;
+        font-weight: 300;
+    }
+    .sslc span{
+        font-weight: 200;
+    }
+}
+
+
+    

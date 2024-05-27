@@ -1,0 +1,137 @@
+
+
+.skills{
+    margin-top: 5px;
+    overflow: hidden;
+    width: 100vw;
+    scroll-behavior: smooth;
+    max-width: 78rem;
+}
+.skillsTitle{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+}
+.fullStack{
+    display: flex;
+    justify-content:space-around;
+    margin:3rem auto;
+}
+.frontEnd{
+    background: #090909;
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    border:solid #f9532d;
+    border-width: 1.5px;
+    box-shadow: 0 0 25px -6px #f9532d;
+}
+.frontList{
+    list-style: none;
+    display:grid;
+    grid-template-columns: auto auto;
+    margin: 0 auto;
+}
+.frontList li{
+    border: solid rgb(197, 197, 197);
+    border-width: 1px;
+    border-radius: 6px;
+    width: 9rem;
+    height: 2.5rem;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(156, 149, 149);
+}
+.frontList img{
+   margin: 4px;
+}
+.backEnd{
+    background: #090909;
+    width: 25rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    border:solid #f9532d;
+    border-width: 1.5px;
+    box-shadow: 0 0 25px -6px #f9532d;
+}
+.frontTitle{
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    font-size: 2.5rem;
+    margin-left:auto;
+    margin-right: auto;
+}
+.backTitle{
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+}
+.backList{
+    list-style: none;
+    display:grid;
+    grid-template-columns: auto;
+    margin: 0 auto;
+}
+.backList li{
+    border: solid rgb(197, 197, 197);
+    border-width: 1px;
+    border-radius: 6px;
+    width: 9rem;
+    height: 2.5rem;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(156, 149, 149);
+}
+
+@media screen and (max-width:840px) {
+    .fullStack{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .frontEnd{
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:440px) {
+    .frontList{
+        display: flex;
+        flex-direction: column;
+    }
+    .frontEnd{
+        height: 70vh;
+        width: 80vw;
+    }
+    .backList{
+        display: flex;
+        flex-direction: column;
+    }
+    .backEnd{
+        height: 40vh;
+        width: 80vw;
+    }
+    .backTitle{
+        padding-top: 3rem;
+        margin-bottom:0;
+    }
+}
