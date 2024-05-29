@@ -12,9 +12,13 @@ const Project = () => {
       <div className='allProj'>
         <div className='frontProj'>
           <img src={FrontProject} alt='ProjectImg' className='frontProjImg'></img>
-          <span className='frontSpan'>React Js</span>
-          <h3 className='frontH3'>Portfolio:</h3>
-          <p className='frontP'>It is my Portfolio project which i have created using simple React Js and used Email Js for receiving e-mails.</p>
+          <div className='backSpanDiv'>
+          <span className='frontSpan'>Html</span>
+          <span className='frontSpan'>Tailwind Css</span>
+          <span className='frontSpan'>JavaScript</span>
+          </div>
+          <h3 className='frontH3'>Techview:</h3>
+          <p className='frontP'>It is a responsive product display website which can do filter,search for specific items.</p>
           <a className='frontBtn' href="" ><img src={Github} alt='Github' className='frontGit'></img>Link</a>
         </div>
         <div className='fullProj'>
