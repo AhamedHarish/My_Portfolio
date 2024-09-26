@@ -18,19 +18,19 @@ const skills = () => {
       <div className='frontEnd'>
         <h2 className='frontTitle'>Frontend</h2>
         <ul className='frontList'>
-          <li><img src={Html}></img><span>HTML</span></li>
-          <li><img src={Css}></img><span>CSS</span></li>
-          <li><img src={Javascript}></img><span>JAVASCRIPT</span></li>
-          <li><img src={Reactlogo}></img><span>REACT</span></li>
-          <li><img src={Bootstrap}></img><span>BOOTSTRAP</span></li>
-          <li><img src={Tailwind}></img><span>TAILWIND</span></li>
+          <li><img src={Html} alt='HTML Logo'/><span>HTML</span></li>
+          <li><img src={Css} alt='CSS Logo'/><span>CSS</span></li>
+          <li><img src={Javascript} alt='JAVASCRIPT Logo'/><span>JAVASCRIPT</span></li>
+          <li><img src={Reactlogo} alt='REACT Logo'/><span>REACT</span></li>
+          <li><img src={Bootstrap} alt='BOOTSTRAP logo'/><span>BOOTSTRAP</span></li>
+          <li><img src={Tailwind} alt='TAILWIND Logo'/><span>TAILWIND</span></li>
         </ul>
       </div>
       <div className='backEnd'>
         <h2 className='backTitle'>Backend</h2>
         <ul className='backList'>
-          <li><img src={Java}></img><span>JAVA</span></li>
-          <li><img src={Mysql}></img><span>MYSQL</span></li>
+          <li><img src={Java} alt='JAVA Logo'></img><span>JAVA</span></li>
+          <li><img src={Mysql} alt='MYSQL Logo'></img><span>MYSQL</span></li>
         </ul>
       </div>
       </div>
