@@ -14,7 +14,7 @@ const Project = () => {
           <img src={FrontProject} alt='ProjectImg' className='frontProjImg'/>
           <div className='backSpanDiv'>
           <span className='frontSpan'>Html</span>
-          <span className='frontSpan'>Tailwind Css</span>
+          <span className='frontSpan'>Tailwind</span>
           <span className='frontSpan'>JavaScript</span>
           </div>
           <h3 className='frontH3'>Techview:</h3>
@@ -40,7 +40,7 @@ const Project = () => {
         </div>
           <h3 className='backH3'>Hospital Management System:</h3>
           <p className='backP'>It is a hospital management project which manages doctor,patient and appointments.</p>
-          <a className='backBtn' href='https://github.com/AhamedHarish/Hospital-Management-System' target='_blank'><img src={Github} alt='Github' className='backGit'/>Link</a>
+          <a className='backBtn' href='https://github.com/AhamedHarish/Hospital-Management-System' target='_blank' ><img src={Github} alt='Github' className='backGit'/>Link</a>
         </div>
       </div>
     </section>

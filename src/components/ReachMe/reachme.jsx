@@ -41,7 +41,7 @@ const Reachme = () => {
      <div className='socialLink'>
             <a href='www.linkedin.com/in/ahamed-harish-othman-5ba25b21b' target='_blank'><img className='linkedIn' src={LinkedIn} alt='linkedin logo'/></a>
             <a href='https://github.com/AhamedHarish' target="_blank"><img className='git' src={Git} alt='github logo'/></a>
-            <a href='https://www.instagram.com/harish_4963/' target="_blank"><img className='insta' src={IG} alt='instagram logo'/></a>
+            <a href='https://www.instagram.com/ah.harishhh?igsh=MxJpYmkzZHM5NTBjZA==' target="_blank"><img className='insta' src={IG} alt='instagram logo'/></a>
      </div>
     </div>
   )
